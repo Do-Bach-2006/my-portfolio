@@ -1,0 +1,245 @@
+
+
+body
+{
+    background-color: #3d3d3d;
+}
+
+.information
+{
+    height: 80vh;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+*
+{
+    color: #1f1f1f;
+    font-family: BayTavern;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 3px 0 #fff, -3px 0 #fff, 0 3px #fff, 0 -3px #fff, 2px 2px #fff, -2px -2px #fff, 2px -2px #fff, -2px 2px #fff;
+}
+
+#heading #skull
+{
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient( #FFFFFF, #F9F9F8,#F2F3F2,#ECECEB,#E5E6E4);
+    border-radius: 50%;
+    border: 4px #1f1f1f dashed ;
+}
+
+#heading
+{
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-image: url("../src/img/pirate_table.jpg");
+    margin-bottom: 10px;
+
+}
+
+h1
+{
+    font-size: 200px;
+    color: #1f1f1f;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+ul
+{
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+}
+
+.small_box
+{
+    display: flex;
+    height: 200px;
+    width: 500px;
+    border: 10px #0d94c6 solid ;
+    border-radius: 10%;
+    background-image: linear-gradient(#FDC830,#F37335);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.small_box:hover 
+{
+    /* background-image: url(../src/img/skull2.jpg) ; */
+    background-image: linear-gradient(#F09819,#EDDE5D);
+}
+
+
+li p
+{
+    font-size: 50px;
+    color: #4a3809;
+}
+
+#relegion h2 , #paragraph p:last-child , #paragraph p:first-child
+{
+    padding: 20px;
+    margin-top: 50px;
+    box-sizing: content-box;
+}
+
+
+#relegion
+{
+    width: 100%;
+    height: 1338px;
+    background-image: url('../src/img/holly_cross.jpg');
+    background-size: contain;
+    justify-content: center;
+    align-items: flex-start;    
+}
+
+
+
+#relegion h2
+{
+    color: #1f1f1f;
+    
+}
+
+#paragraph p:last-child
+{
+    font-size: 80px;
+    text-align: center;
+    font-style: italic;
+
+}
+
+#paragraph p:first-child
+{
+    color: #5e650f;
+    font-size: 60px;
+    font-style: oblique;
+    text-align: center;
+
+}
+
+
+.sub_header
+{
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    text-align: center;
+}
+
+
+#passion
+{
+    
+    width: 100%;
+    height: 1000px;
+    background-image: url(../src/img/map.jpg);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+#passion .sub_header  , #passion ul
+{
+    padding: 50px;
+    margin-top: 50px;
+}
+
+#general_informations
+{
+    background-image: url(../src/img/pirate_information.jpg);
+    background-size: cover;
+}
+
+#general_informations .small_box
+{
+    display: grid;
+}
+
+/* first box of the generals_informations */
+#general_informations li:nth-child(1) .small_box:hover
+{
+    background-image: url(../src/img/clash_royale.jpg);
+    background-size: cover;
+    
+}
+
+/* second box of the generals_informations */
+#general_informations li:nth-child(2) .small_box:hover
+{
+    background-image: url(../src/img/edm.jpg);
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+/* third box of the generals_informations */
+
+#general_informations li:nth-child(3) .small_box:hover
+{
+    background-image: url(../src/img/programming.jpg);
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+/* fist box of passion */
+#passion li:nth-child(1) .small_box:hover
+{
+    background-image: url(../src/img/hacker.webp);
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+/* second box of passion */
+#passion li:nth-child(2) .small_box:hover
+{
+    background-image: url(../src/img/helper.jpg);
+    background-size: cover;
+    background-origin: padding-box;
+    background-position: center center;
+}
+
+/* third box of passion */
+#passion li:nth-child(3) .small_box:hover
+{
+    background-image: url(../src/img/lord_is_king.jpg);
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+/* first box of heading  */
+#heading li:nth-child(1) .small_box:hover
+{
+    background-image: url(../src/img/bach.jpg);
+    background-size: contain;
+    background-origin: padding-box;
+    position: center center;
+}
+
+/* second box of heading  */
+#heading li:nth-child(2) .small_box:hover
+{
+    background-image: url(../src/img/pattern.jpg);
+    
+    background-origin: padding-box;
+}
+
+/* third box of heading  */
+#heading li:nth-child(3) .small_box:hover
+{
+    background-image: url(../src/img/vietnam.avif);
+    background-size: cover;
+    background-origin: padding-box;
+}
+
+
+

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'pixar';
+    src: url("../src/fonts/Pixer-Regular.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Pirates';
+    src: url("../src/fonts/Pirates.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'Blackpearl';
+    src: url("../src/fonts/BlackPearl.otf") format('opentype');
+}
+
+@font-face {
+    font-family: 'BayTavern';
+    src: url('../src/fonts/BayTavernFill-Regular.otf') format('opentype');
+}

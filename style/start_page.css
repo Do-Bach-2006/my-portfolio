@@ -1,0 +1,114 @@
+
+
+body
+{
+    background-color: #0c110e;
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1
+{
+    height: 80vh;
+    background-image: url("../src/img/the-pirate-bay-logo-the-pirate-bay-logo-wallpaper-preview.jpg"); 
+    background-size: contain;
+    background-position: right center; 
+    background-repeat: no-repeat; 
+    background-color: black;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+
+    border: #205a52;
+    border-style: outset;
+    border-radius: 5%;
+    margin: 10px;
+
+    font-weight: bolder;
+}
+
+
+#greeting
+{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#first_sentence
+{
+    font-size: calc(30vh + 10px) ;
+    font-weight: bold;
+    font-family: Pirates;
+    color: rgba(96, 225, 201, 0.5);
+    text-align: center;
+}
+
+#second_sentence
+{
+    font-size: 10vh;
+    font-family: Pirates;
+    color: rgba(96, 225, 201, 0.5);
+    text-align: left middle;
+    
+}
+
+
+
+
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+
+}
+
+
+.box
+{
+    display: flex;
+    height: 30vh;
+    width: 30%;
+    background-image: linear-gradient(#151b17, #0c110e , #1d241f , #2c362f , #414e45);
+    align-items: center;
+    justify-content: center;
+
+    margin : auto;
+    margin-top: 5px;
+
+    border-radius: 10%;
+    border-style: outset;
+    border-color: #44b2bb;
+    transition: background-image 3s
+}
+
+.box:hover
+{
+    border: 10px solid;
+    border-color: rgba(96, 225, 201,1);
+    border-style: solid;
+    background-image: url(../src/img/skull2.jpg) ;
+    /* background: rgb(3, 57, 134); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: ease-in 0.25s;
+}
+
+h2
+{
+    font-size: 100px;
+    display: flexbox;
+    color: rgba(96, 225, 201, 0.5);
+    font-family: Blackpearl;
+}
+
